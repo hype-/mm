@@ -1,0 +1,12 @@
+/* TEAM */
+Creator: Mikko Hirvonen
+Contant: mikko.petteri.hirvonen@gmail.com
+Twitter: @__hype
+Location: Vantaa, Finland
+
+Design: Laura Ojala
+Location: Helsinki, Finland
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: Meteor, JavaScript
