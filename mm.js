@@ -14,7 +14,7 @@ if (Meteor.isClient) {
         },
         {
           name: "Minna Kotilainen",
-          text: "Minna ja Melinda tapasivat lukiossa. Muiden vaikea saada suunvuoroa kun he ovat yhdessä. He jakavat yhteisen musiikkimaun ja innostuksen kieltenopiskeluun.",
+          text: "Minna ja Melinda tapasivat lukiossa. Muiden on vaikea saada suunvuoroa kun he ovat yhdessä. He jakavat yhteisen musiikkimaun ja innostuksen kieltenopiskeluun.",
           image: "minna.jpg"
         },
         {
@@ -24,7 +24,7 @@ if (Meteor.isClient) {
         },
         {
           name: "Netta Koso",
-          text: "Netta on Melindan pikkusisko. Hän tykkää urheilusta ja pelaa jalkapalloa PK-35 Vantaassa. Uravalinta on vielä auki mutta viihtyy lasten parissa ja toimii tällä hetkellä koulunkäyntiavustajana.",
+          text: "Netta on Melindan pikkusisko. Hän tykkää urheilusta ja pelaa jalkapalloa PK-35 Vantaassa. Uravalinta on vielä auki mutta Netta viihtyy lasten parissa ja toimii tällä hetkellä koulunkäyntiavustajana.",
           image: "netta.jpg"
         },
         {
@@ -39,7 +39,7 @@ if (Meteor.isClient) {
         },
         {
           name: "Tommi Vesterinen",
-          text: "Tommi on Mikon vanhin ja paras kaveri. Heillä on monia yhteisiä harrastuksia ja he viettävät paljon aikaa yhdessä. He ovat tunteneet Mikon kanssa ala-asteelta asti.",
+          text: "Tommi on Mikon vanhin ja paras ystävä. He viettävät paljon aikaa yhdessä ja heillä on monia yhteisiä harrastuksia. Tommi on tuntenut Mikon ala-asteelta saakka.",
           image: "tommi.jpg"
         }
       ];
