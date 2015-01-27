@@ -100,6 +100,11 @@ header {
     font-size: 95px;
     color: @color-pink;
     margin: 0;
+
+    @media (max-width: @screen-sm-max) {
+      margin-top: 35px;
+      font-size: 55px;
+    }
   }
 }
 
@@ -187,6 +192,14 @@ p, address {
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizelegibility;
+}
+
+a {
+  color: @color-less-pink;
+
+  &:hover, &:active, &:focus {
+    color: @color-pink;
+  }
 }
 
 .google-maps {
