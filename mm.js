@@ -41,7 +41,7 @@ if (Meteor.isClient) {
         },
         {
           name: "Tommi Vesterinen",
-          text: "Tommi on Mikon vanhin ja paras ystävä. He viettävät paljon aikaa yhdessä ja heillä on monia yhteisiä harrastuksia. Tommi on tuntenut Mikon ala-asteelta saakka.",
+          text: "Tommi on Mikon vanhin ja paras ystävä. He viettävät paljon aikaa yhdessä ja heillä on monia yhteisiä harrastuksia. Tommi on tuntenut Mikon tarhasta saakka.",
           image: "tommi.jpg"
         }
       ];
