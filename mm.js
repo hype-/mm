@@ -61,12 +61,14 @@ if (Meteor.isClient) {
         {element: allergiesElement, value: allergies, required: false}
       ];
 
+      removeSuccess.call(this, '.js-registration-added');
+
       validate.call(this, mappings, function () {
         var arrival = template.find('input[name=js-arrival]:checked').value;
 
         saveRegistration.call(this, name, allergies, arrival);
 
-        // TODO: show success
+        showSuccess.call(this, '.js-registration-added');
       });
     },
 
@@ -78,10 +80,12 @@ if (Meteor.isClient) {
         {element: songElement, value: song, required: true}
       ];
 
+      removeSuccess.call(this, '.js-song-added');
+
       validate.call(this, mappings, function () {
         saveSong.call(this, song);
 
-        // TODO: show success
+        showSuccess.call(this, '.js-song-added');
       });
     }
   });
@@ -92,6 +96,14 @@ if (Meteor.isClient) {
       allergies: allergies,
       arrival: arrival
     });
+  };
+
+  var showSuccess = function (selector) {
+    jQuery(selector).removeClass('hidden');
+  };
+
+  var removeSuccess = function (selector) {
+    jQuery(selector).addClass('hidden');
   };
 
   var validate = function (mappings, onSuccess) {
