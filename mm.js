@@ -1,4 +1,6 @@
 if (Meteor.isClient) {
+  GAnalytics.pageview();
+
   Template.body.helpers({
     bridesmaids: function () {
       return [
