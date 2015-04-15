@@ -35,7 +35,7 @@ if (Meteor.isClient) {
           image: "sanna.jpg"
         },
         {
-          name: "Miko Koso",
+          name: "Miki Koso",
           text: "Miki on Melindan pikkuveli. Hän on siskojensa tapaan vilkas ja innostunut uusista asioista. Miki tykkää jalkapallosta mutta tällä hetkellä parasta on juuri hankittu mopokortti.",
           image: "miki.jpg"
         },
